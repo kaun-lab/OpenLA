@@ -1,0 +1,60 @@
+Thu Oct 20 22:05:36 2016    C:\Users\Mixologist\Desktop\Stats.dmp
+
+         45092250 function calls in 603.344 seconds
+
+   Ordered by: cumulative time
+   List reduced from 168 to 50 due to restriction <0.3>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    17901    1.245    0.000  282.836    0.016 operant_occupation_assay.py:599(preprocess_and_track)
+   107406    0.998    0.000  207.514    0.002 operant_occupation_assay.py:410(preprocess_frame)
+   107406  185.924    0.002  185.924    0.002 {method 'apply' of 'cv2.BackgroundSubtractor' objects}
+    17902    0.175    0.000  164.183    0.009 queues.py:113(get)
+    17902  163.923    0.009  163.923    0.009 {method 'recv' of '_multiprocessing.PipeConnection' objects}
+    17901  145.348    0.008  145.348    0.008 {waitKey}
+   107406    3.398    0.000   74.077    0.001 operant_occupation_assay.py:439(track)
+   107406    0.123    0.000   43.223    0.000 numeric.py:1737(array_str)
+   107406    0.511    0.000   43.099    0.000 arrayprint.py:340(array2string)
+   107406    1.614    0.000   42.513    0.000 arrayprint.py:237(_array2string)
+   322218    0.696    0.000   19.112    0.000 arrayprint.py:529(__init__)
+   322218    9.167    0.000   18.416    0.000 arrayprint.py:543(fillFormat)
+   107406    1.605    0.000   17.925    0.000 arrayprint.py:458(_formatArray)
+   859248    7.665    0.000   15.106    0.000 arrayprint.py:594(__call__)
+   107406    0.372    0.000   11.539    0.000 arrayprint.py:696(__init__)
+   107406   10.020    0.000   10.020    0.000 {medianBlur}
+    17909    0.197    0.000    9.244    0.001 iostream.py:151(flush)
+  2362932    3.536    0.000    7.858    0.000 numeric.py:2473(seterr)
+    17909    0.303    0.000    7.820    0.000 session.py:600(send)
+   107406    6.721    0.000    6.721    0.000 {dilate}
+   107406    5.240    0.000    5.240    0.000 {findContours}
+  1181466    0.855    0.000    5.031    0.000 numeric.py:2864(__enter__)
+   107406    5.005    0.000    5.005    0.000 {imshow}
+  1181466    0.921    0.000    4.604    0.000 numeric.py:2869(__exit__)
+   107406    4.288    0.000    4.288    0.000 {method 'write' of 'file' objects}
+    17909    0.176    0.000    4.162    0.000 session.py:541(serialize)
+   958594    3.906    0.000    3.906    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+   105335    0.431    0.000    3.787    0.000 operant_occupation_assay.py:441(check_roi_occupancy)
+    71636    0.115    0.000    3.324    0.000 session.py:94(<lambda>)
+    71636    0.192    0.000    3.209    0.000 jsonapi.py:31(dumps)
+   105335    0.455    0.000    3.101    0.000 operant_occupation_assay.py:284(update_state)
+  2362932    2.765    0.000    2.934    0.000 numeric.py:2573(geterr)
+    71636    0.288    0.000    2.893    0.000 __init__.py:193(dumps)
+   250614    0.833    0.000    2.640    0.000 iostream.py:207(write)
+    71636    0.175    0.000    2.486    0.000 encoder.py:186(encode)
+   322218    0.361    0.000    2.449    0.000 fromnumeric.py:1883(any)
+   107406    2.449    0.000    2.449    0.000 {method 'copy' of 'numpy.ndarray' objects}
+   107406    1.033    0.000    2.370    0.000 arrayprint.py:635(__init__)
+   105329    0.574    0.000    2.147    0.000 operant_occupation_assay.py:183(get_dist)
+    71636    0.581    0.000    2.092    0.000 encoder.py:212(iterencode)
+      360    0.002    0.000    1.944    0.005 operant_occupation_assay.py:300(write)
+      360    0.014    0.000    1.891    0.005 {method 'readline' of '_io._IOBase' objects}
+     7920    1.851    0.000    1.877    0.000 serialwin32.py:242(read)
+   322218    0.268    0.000    1.820    0.000 {method 'any' of 'numpy.ndarray' objects}
+    17909    0.114    0.000    1.751    0.000 session.py:507(msg)
+   107406    1.734    0.000    1.734    0.000 {method 'tostring' of 'numpy.ndarray' objects}
+   105329    0.847    0.000    1.573    0.000 linalg.py:1976(norm)
+   322218    0.160    0.000    1.552    0.000 _methods.py:37(_any)
+    17909    0.191    0.000    1.505    0.000 socket.py:289(send_multipart)
+    17909    0.120    0.000    1.475    0.000 session.py:504(msg_header)
+
+
